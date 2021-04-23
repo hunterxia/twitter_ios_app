@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.9.0)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - BDBOAuth1Manager (2.0.0):
+    - AFNetworking/NSURLSession (~> 3.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AlamofireImage
+  - BDBOAuth1Manager
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - AlamofireImage
+    - BDBOAuth1Manager
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  BDBOAuth1Manager: 92d17d06f8a648602962304cd2f35ae7394fa001
+
+PODFILE CHECKSUM: e13b2a8b0a1b932e28dfe6a5b2954cbb1f509412
+
+COCOAPODS: 1.8.3
